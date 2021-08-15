@@ -1,6 +1,6 @@
 # 平均値を求める
 
-def list_average(array: list) -> float:
+def average_list(array: list) -> float:
     len_array: int = len(array)
     sum_value: int = 0
     for num in array:
@@ -10,4 +10,4 @@ def list_average(array: list) -> float:
 
 if __name__ == '__main__':
     a: list = [1, 3, 10, 2, 8]
-    print(list_average(a))
+    print(average_list(a))
