@@ -1,10 +1,12 @@
 # 最大値を求める
 
-def max_list(array: list) -> int:
-    for _index, num in enumerate(array):
-        if _index != 0:
+
+def max_list(_array: list) -> int:
+    comp_num: int = -1
+    for index, num in enumerate(_array):
+        if index != 0:
             comp_num = num if num >= comp_num else comp_num
-        elif _index == 0:
+        elif index == 0:
             comp_num = num
     return comp_num
 

@@ -1,8 +1,9 @@
 # 合計値を求める
 
-def sum_list(array: list) -> int:
+
+def sum_list(_array: list) -> int:
     sum_value: int = 0
-    for num in array:
+    for num in _array:
         sum_value += num
     return sum_value
 

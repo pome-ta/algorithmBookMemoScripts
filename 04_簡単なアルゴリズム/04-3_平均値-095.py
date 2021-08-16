@@ -1,9 +1,10 @@
 # 平均値を求める
 
-def average_list(array: list) -> float:
-    len_array: int = len(array)
+
+def average_list(_array: list) -> float:
+    len_array: int = len(_array)
     sum_value: int = 0
-    for num in array:
+    for num in _array:
         sum_value += num
     return sum_value / len_array
 
