@@ -11,4 +11,4 @@ def average_list(_array: list) -> float:
 
 if __name__ == '__main__':
     a: list = [1, 3, 10, 2, 8]
-    print(average_list(a))
+    print(f'平均値: {average_list(a)}')

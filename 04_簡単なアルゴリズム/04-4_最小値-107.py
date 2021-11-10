@@ -13,4 +13,4 @@ def min_list(_array: list) -> int:
 
 if __name__ == '__main__':
     a: list = [1, 3, 10, 2, 8]
-    print(min_list(a))
+    print(f'最小値: {min_list(a)}')

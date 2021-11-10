@@ -12,4 +12,4 @@ if __name__ == '__main__':
     _a: int = 10
     _b: int = 20
     a, b = switch_var(_a, _b)
-    print(a, b)
+    print(f'_a={_a}, _b={_b}, a={a}, b={b}')

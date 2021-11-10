@@ -13,4 +13,4 @@ def max_list(_array: list) -> int:
 
 if __name__ == '__main__':
     a: list = [1, 3, 10, 2, 8]
-    print(max_list(a))
+    print(f'最大値: {max_list(a)}')

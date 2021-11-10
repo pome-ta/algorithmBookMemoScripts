@@ -14,4 +14,4 @@ def linear_search(_array: list, search: int) -> int:
 if __name__ == '__main__':
     a: list = [10, 3, 1, 4, 2]
     search_value: int = 4
-    print(linear_search(a, search_value))
+    print(f'リニアサーチ: {linear_search(a, search_value)}')

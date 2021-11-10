@@ -10,4 +10,4 @@ def sum_list(_array: list) -> int:
 
 if __name__ == '__main__':
     a: list = [1, 3, 10, 2, 8]
-    print(sum_list(a))
+    print(f'合計値: {sum_list(a)}')

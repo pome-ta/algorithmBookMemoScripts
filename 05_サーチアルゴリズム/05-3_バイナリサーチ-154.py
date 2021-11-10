@@ -23,4 +23,4 @@ if __name__ == '__main__':
     # todo: 昇順のlist
     a: list = [1, 2, 4, 5, 10]
     search_value: int = 4
-    print(binary_search(a, search_value))
+    print(f'バイナリサーチ: {binary_search(a, search_value)}')
